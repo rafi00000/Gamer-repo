@@ -26,6 +26,11 @@ nav .nav-menu a{
     display: flex;
     font-size: 45px;
     font-weight: 700;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    height: 50%;
 }
 .nav-follow{
     display: flex;
@@ -54,11 +59,56 @@ nav .nav-menu a{
     font-size: 48px;
     font-weight: 600;
 }
-.primary-title{
+.goat{
     font-size: 95px;
+}
+.primary-title{
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.banner-text{
+    background-image: url("/images/group\ 14.png");
+    background-size: 100%;
+}
+
+.banner-btn{
+    padding: 8px 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.red{
+    background-color: #F948B2;
+}
+.blue{
+    background-color: #7642ef;
+}
+.onlinegame-container{
+    margin-top: 20px;
+}
+.onlinegame-container h2, .onlinegame-container p{
+    text-align: center;
+}
+
+.video-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.video-container img{
+    width: 220px ;
+    margin-top: 20px;
+    transition: border ease-in-out 0.4s;
+    border-radius: 10px;
+}
+
+.video-container img:hover{
+    border: #FF42A5 4px solid;
+}
+
