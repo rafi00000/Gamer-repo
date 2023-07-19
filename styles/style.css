@@ -5,15 +5,27 @@
     padding: 0px;
     font-family: 'Work Sans', sans-serif;
 }
+/* utility class */
+.primary-footer{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* utility class ends */
 body{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 nav{
+    max-width: 1920px;
+}
+.nav-container{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 15px;
-    max-width: 1920px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 nav .nav-menu a{
     text-decoration: none;
@@ -57,9 +69,11 @@ nav .nav-menu a{
     justify-content: space-around;
     align-items: center;
     margin: 0px ;
+    background-image: url("/images/group\ 14.png");
+    background-repeat: no-repeat;
 }
 
-.banner-heading{
+.banner-heading, .onlinegame-container h2{
     font-size: 48px;
     font-weight: 600;
 }
@@ -74,8 +88,6 @@ nav .nav-menu a{
     -webkit-text-fill-color: transparent;
 }
 .banner-text{
-    background-image: url("/images/group\ 14.png");
-    background-size: 100%;
     
 }
 
@@ -137,8 +149,8 @@ nav .nav-menu a{
 .angela{
     position:relative;
     width: 300px;
-    bottom: 290px;
-    left: 490px;
+    bottom: 310px;
+    left: 500px;
 }
 /* play instantly ends */
 
@@ -148,6 +160,8 @@ nav .nav-menu a{
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
+    margin-top: -200px;
+    margin-bottom: 200px;
 }
 
 .category{
@@ -158,4 +172,36 @@ nav .nav-menu a{
     border-radius: 50px;
     background: #FFF;
     padding: 0px 10px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#0B0223;
+    color: white;
+    padding: 20vh;
+    text-align: center;
+}
+.nav-logo{
+    justify-content: center;
+}
+.nav-logo img{
+    width: 4%;
+}
+
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 60px 0px;
+}
+.footer-icon{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.fa-brands{
+    font-size: 30px;
 }

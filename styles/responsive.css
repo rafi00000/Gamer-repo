@@ -24,9 +24,16 @@
     .video-container{
         flex-wrap: wrap;
     }
-    .banner-image, .banner-text{
+    .banner-image, .banner-text, .play-container{
         width: 100%;
         align-items: center;
         flex-direction: column-reverse;
+    }
+    .play-text{
+        margin-top: 200px;
+    }
+    .angela{
+        bottom: 600px;
+        left: 0px;
     }
 }
