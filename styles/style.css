@@ -5,11 +5,15 @@
     padding: 0px;
     font-family: 'Work Sans', sans-serif;
 }
+body{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
 nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 15px;
+    max-width: 1920px;
 }
 nav .nav-menu a{
     text-decoration: none;
@@ -72,6 +76,7 @@ nav .nav-menu a{
 .banner-text{
     background-image: url("/images/group\ 14.png");
     background-size: 100%;
+    
 }
 
 .banner-btn{
@@ -89,7 +94,7 @@ nav .nav-menu a{
     background-color: #7642ef;
 }
 .onlinegame-container{
-    margin-top: 20px;
+    margin-top: 120px;
 }
 .onlinegame-container h2, .onlinegame-container p{
     text-align: center;
@@ -105,10 +110,52 @@ nav .nav-menu a{
     width: 220px ;
     margin-top: 20px;
     transition: border ease-in-out 0.4s;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .video-container img:hover{
     border: #FF42A5 4px solid;
 }
 
+.video-cards p{
+    width: 250px;
+}
+/* funny video section ends here */
+
+/* play instantly */
+
+.play-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+.play-head{
+    font-size: 48px;
+    font-weight: 700;
+}
+.angela{
+    position:relative;
+    width: 300px;
+    bottom: 290px;
+    left: 490px;
+}
+/* play instantly ends */
+
+/* category section */
+.category-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.category{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    padding: 0px 10px;
+}
