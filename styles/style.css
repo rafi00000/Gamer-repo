@@ -87,9 +87,6 @@ nav .nav-menu a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.banner-text{
-    
-}
 
 .banner-btn{
     padding: 8px 15px;
@@ -171,8 +168,15 @@ nav .nav-menu a{
     align-items: center;
     border-radius: 50px;
     background: #FFF;
-    padding: 0px 10px;
+    padding-right: 5px;
+    transition: ease-in-out .5s;
 }
+.category:hover{
+    color:#FF42A5;
+    border: 1px solid #FF42A5 ;
+}
+
+/* category ends */
 .footer-container{
     display: flex;
     justify-content: center;
@@ -185,8 +189,8 @@ nav .nav-menu a{
 .nav-logo{
     justify-content: center;
 }
-.nav-logo img{
-    width: 4%;
+.footer-container .nav-logo img{
+    width: 5%;
 }
 
 .footer-links{
